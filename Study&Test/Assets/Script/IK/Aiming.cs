@@ -61,11 +61,11 @@ public class Aiming : MonoBehaviour
         float blend_out = 0.0f;
         float target_angle = Vector3.Angle(target_diretion, aim_diretion);
 
-        Debug.Log("target_angle: " + target_angle);
+        //Debug.Log("target_angle: " + target_angle);
 
         if(target_angle > angle_limit)
         {
-            Debug.Log("target_back");
+            //Debug.Log("target_back");
         }
 
         float target_distance = target_diretion.magnitude;
